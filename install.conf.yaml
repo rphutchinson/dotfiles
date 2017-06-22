@@ -15,5 +15,27 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - ["mkdir -p ~/.vim/autoload", "Creating vim autoload directory"]
-    - ["curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
-                "Downloading vim-plug"]
+    - ["curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim", "Downloading vim-plug"]
+
+    #### Homebrew ####
+    # Get Homebrew setup
+    -
+        - 'brew --version || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+        - Install Homebrew
+    -
+        - "brew tap homebrew/bundle"
+        - Install Brewfileabilityness
+
+    # Update Homebrew if we're just touching up
+    -
+        command: brew update
+        description: Update Homebrew
+        stdout: true
+        stderr: true
+
+    # Install _All_ the things!
+    -
+        command: "brew bundle --file=homebrew/Brewfile"
+        description: Install _All_ the brewlings!
+        stdout: true
+        stderr: true
