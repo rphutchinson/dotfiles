@@ -1,7 +1,7 @@
 - defaults:
     link:
         relink: true
-  
+
 - clean: ['~']
 
 - link:
@@ -10,5 +10,10 @@
     ~/.vimrc: vimrc
     ~/.zshenv:
     ~/.zshrc:
+    ~/.vim:
+
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - ["mkdir -p ~/.vim/autoload", "Creating vim autoload directory"]
+    - ["curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
+                "Downloading vim-plug"]
