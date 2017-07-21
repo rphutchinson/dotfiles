@@ -16,6 +16,8 @@
     - [git submodule update --init --recursive, Installing submodules]
     - ["mkdir -p ~/.vim/autoload", "Creating vim autoload directory"]
     - ["curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim", "Downloading vim-plug"]
+    - ['sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"', "Oh-My-Zsh"]
+
 
     #### Homebrew ####
     # Get Homebrew setup
@@ -39,3 +41,6 @@
         description: Install _All_ the brewlings!
         stdout: true
         stderr: true
+
+
+    - ["cd ~/Downloads/ && wget https://raw.github.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors", "Downloading Solarized Dark theme for iTerm2"]
