@@ -3,7 +3,7 @@ set nocompatible              " be iMproved, required
 call plug#begin()
 Plug 'flazz/vim-colorschemes'
 Plug 'pangloss/vim-javascript'
-Plug 'valloric/youcompleteme'
+"Plug 'valloric/youcompleteme'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Shougo/denite.nvim'
 Plug 'scrooloose/nerdtree'

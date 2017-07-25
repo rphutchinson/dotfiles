@@ -1,1 +1,3 @@
 vim/plugged/
+vim/autoload/
+*.itermcolors
