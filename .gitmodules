@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "vendor/tim"]
+  path = vendor/tim
+  url = git://github.com/ggustafsson/Tim.git
