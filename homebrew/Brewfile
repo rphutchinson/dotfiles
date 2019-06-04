@@ -1,3 +1,4 @@
+# Tap 3rd party repositories
 tap "caskroom/cask"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -7,6 +8,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "jenv/jenv"
 tap "pivotal/tap"
+tap "homebrew/cask-fonts"
+
+# Command Line utilites installed with core brew command
 brew "bash"
 brew "bash-completion"
 brew "docker", link: false
@@ -26,6 +30,8 @@ brew "tmux"
 brew "tree"
 brew "wget"
 brew "zsh"
+
+# Graphical tools installed with brew cask
 cask "docker"
 cask "electric-sheep"
 cask "firefox"
@@ -38,3 +44,8 @@ cask "postman"
 cask "slack"
 cask "spotify"
 cask "visual-studio-code"
+
+# Fonts from homebrew/cask-fonts
+cask "font-menlo-for-powerline"
+cask "font-meslo-for-powerline"
+cask "font-source-code-pro-for-powerline"
