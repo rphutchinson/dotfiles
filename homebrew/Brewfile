@@ -9,6 +9,7 @@ tap "homebrew/services"
 tap "jenv/jenv"
 tap "pivotal/tap"
 tap "homebrew/cask-fonts"
+tap "sambadevi/powerlevel9k"
 
 # Command Line utilites installed with core brew command
 brew "bash"
@@ -30,6 +31,9 @@ brew "tmux"
 brew "tree"
 brew "wget"
 brew "zsh"
+
+# Oh My ZSH theme
+brew "powerlevel9k"
 
 # Graphical tools installed with brew cask
 cask "docker"

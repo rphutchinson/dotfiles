@@ -4,12 +4,14 @@
 DEFAULT_USER=`whoami`
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/patrickhutchinson/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
+
+# load Powerlevel9k theme
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="avit"
 
 # zsh tmux settings

@@ -9,16 +9,16 @@
     ~/.vim:
     ~/.vimrc:
     ~/.zshenv:
-    ~/.zshrc:
-    ~/.vim:
+
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - ["mkdir -p ~/.vim/autoload", "Creating vim autoload directory"]
     - ["curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim", "Downloading vim-plug"]
     - ['rm -rf ~/.oh-my-zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"', "Installing oh-my-zsh"]
-    - ['defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iterm2"', "Using custom iTerm2 preferences"]
+    - ['defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"', "Using custom iTerm2 preferences"]
     - ['defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true', "Telling iterm2 to actually use those preferences"]
 
+- shell:
 
     #### Homebrew ####
     # Get Homebrew setup
@@ -42,4 +42,10 @@
         description: Install _All_ the things!
         stdout: true
         stderr: true
+
+- link:
+    ~/.zshrc:
+        force: true
+    # $ZSH/custom: /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+
 
