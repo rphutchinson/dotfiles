@@ -4,3 +4,6 @@
 [submodule "vendor/tim"]
   path = vendor/tim
   url = git://github.com/ggustafsson/Tim.git
+[submodule "dotbot-vscode"]
+	path = dotbot-vscode
+	url = https://github.com/hujianxin/dotbot-vscode

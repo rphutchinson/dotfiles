@@ -46,6 +46,14 @@
 - link:
     ~/.zshrc:
         force: true
-    # $ZSH/custom: /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 
+- link:
+    # vscode:
+    "~/Library/Application Support/Code/User/settings.json":
+        path: vscode/settings.json
+        create: true
+        force: true
+
+- vscodefile:
+    file: vscode/vscodefile
 
