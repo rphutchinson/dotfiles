@@ -7,3 +7,6 @@
 1. Clone this repo, can be anywhere but typically to `~/dotfiles`
 2. run installer script `~/dotfiles/install`
 3. wait patiently for computer to become awesome
+
+## Notes
+* This uses https://github.com/hujianxin/dotbot-vscode for vscode configuration
