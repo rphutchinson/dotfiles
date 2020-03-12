@@ -1,3 +1,4 @@
 vim/plugged/
 vim/autoload/
 *.itermcolors
+.DS_Store

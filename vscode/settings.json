@@ -1,5 +1,5 @@
 {
-    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home",
+    "java.home": "/usr/local/var/jenv/versions/1.8",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -18,7 +18,7 @@
         100
     ],
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/patrickhutchinson/.vscode/extensions/gabrielbb.vscode-lombok-0.9.7/server/lombok.jar\" -Xbootclasspath/a:\"/Users/patrickhutchinson/.vscode/extensions/gabrielbb.vscode-lombok-0.9.7/server/lombok.jar\"",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "files.trimTrailingWhitespace": true,
     "explorer.confirmDelete": false,
     "sasslint.configFile": "../ui-scripts/config/sass-lint/.sasslintrc",
@@ -36,6 +36,12 @@
     "powermode.enabled": true,
     "powermode.enableShake": false,
     "powermode.enableStatusBarComboTimer": false,
-    "editor.fontSize": 12,
-    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontSize": 11,
+    "workbench.colorTheme": "Synthwave x Fluoromachine",
+    "editor.formatOnSave": true,
+    "vscode_custom_css.imports": [
+        "file:///Users/patrick.hutchinson/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.9/synthwave-x-fluoromachine.css"
+    ],
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true
 }

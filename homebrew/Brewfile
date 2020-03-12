@@ -3,6 +3,7 @@ tap "caskroom/cask"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -10,6 +11,7 @@ tap "jenv/jenv"
 tap "pivotal/tap"
 tap "homebrew/cask-fonts"
 tap "sambadevi/powerlevel9k"
+
 
 # Command Line utilites installed with core brew command
 brew "bash"
@@ -35,7 +37,11 @@ brew "zsh"
 # Oh My ZSH theme
 brew "powerlevel9k"
 
+# Non-GUI casks
+cask "adoptopenjdk8"
+
 # Graphical tools installed with brew cask
+cask "brave-browser"
 cask "docker"
 cask "electric-sheep"
 cask "firefox"
@@ -50,6 +56,8 @@ cask "spotify"
 cask "visual-studio-code"
 
 # Fonts from homebrew/cask-fonts
+cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-powerline"
 cask "font-menlo-for-powerline"
 cask "font-meslo-for-powerline"
 cask "font-source-code-pro-for-powerline"

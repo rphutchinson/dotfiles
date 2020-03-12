@@ -12,6 +12,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'reedes/vim-pencil'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 if (exists('+colorcolumn'))
