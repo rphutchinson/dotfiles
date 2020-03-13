@@ -1,4 +1,4 @@
-# mac OS environment setup utility
+# mac OS environment setup utility using https://github.com/anishathalye/dotbot
 ## Prerequisites
 1. Git - run `$git --version` if git is not installed follow the prompts to install X Code command line tools
 2. :coffee:
