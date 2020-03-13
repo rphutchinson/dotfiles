@@ -10,4 +10,5 @@
 
 ## Notes
 * This uses https://github.com/hujianxin/dotbot-vscode for vscode configuration
-* It's very likely that VSCode settings aren't going to work right out of the box see: https://github.com/webrender/synthwave-x-fluoromachine for instructions
+* It's very possible that VSCode theme settings aren't going to work right out of the box see: https://github.com/webrender/synthwave-x-fluoromachine for instructions. Ideally, just run the command `reload custom css` to get the theme rendering correctly the first time
+* You'll get an error `cannot find color scheme 'solarized'` when first opening vim - just run :PlugInstall to install the color theme and other vim plugins
