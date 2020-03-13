@@ -1,4 +1,6 @@
-# mac OS environment setup utility using https://github.com/anishathalye/dotbot
+# mac OS environment setup utility
+Uses https://github.com/anishathalye/dotbot to transform a new machine from bare OS to fully configured environment
+
 ## Prerequisites
 1. Git - run `$git --version` if git is not installed follow the prompts to install X Code command line tools
 2. :coffee:
