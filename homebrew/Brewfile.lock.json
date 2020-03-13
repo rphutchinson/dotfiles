@@ -8,19 +8,19 @@
         "revision": "8d049dde05d765fc741163ce83edb036caa99cc1"
       },
       "homebrew/bundle": {
-        "revision": "5fe2ca4c0f5e686bed7201e98b210f880582a2fb"
+        "revision": "c5f1efdd749e1af50842d952b933ad3de130948d"
       },
       "homebrew/cask": {
-        "revision": "28222feda3b33ac26a33acbdd4b879480f70b7ce"
+        "revision": "ce3c80d0ebbed96ffe012424f04bce52ae5c7f60"
       },
       "homebrew/cask-fonts": {
-        "revision": "f0776bb08ddae1720861e2586aeaf7cbee1bbf16"
+        "revision": "dccee5849a6c79f91bce20ad036b39c5e2bdab71"
       },
       "homebrew/cask-versions": {
-        "revision": "6af89baede97698dae8985598dc0b185273d1b1b"
+        "revision": "28717b6bb13b818c6fefd0c5829fead2b3a13f9f"
       },
       "homebrew/core": {
-        "revision": "9dfa98810c2684998e9d91ffbf8740f2e066b32c"
+        "revision": "a07fc4262e2b6ca98cec79ffe8a557b0923ec31e"
       },
       "homebrew/services": {
         "revision": "984f3a2528961b01a5481af6d79dfd6a7c903995"
@@ -468,13 +468,13 @@
         }
       },
       "brave-browser": {
-        "version": "0.67.123",
+        "version": "80.1.4.96,104.96",
         "options": {
           "full_name": "brave-browser"
         }
       },
       "docker": {
-        "version": "2.0.0.3-ce-mac81,31259",
+        "version": "2.2.0.3,42716",
         "options": {
           "full_name": "docker"
         }
@@ -486,7 +486,7 @@
         }
       },
       "firefox": {
-        "version": "67.0.4",
+        "version": "74.0",
         "options": {
           "full_name": "firefox"
         }
@@ -498,37 +498,37 @@
         }
       },
       "google-chrome": {
-        "version": "75.0.3770.100",
+        "version": "80.0.3987.132",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "insomnia": {
-        "version": "6.5.4",
+        "version": "7.1.1",
         "options": {
           "full_name": "insomnia"
         }
       },
       "intellij-idea-ce": {
-        "version": "2019.3.2,193.6015.39",
+        "version": "2019.3.3,193.6494.35",
         "options": {
           "full_name": "intellij-idea-ce"
         }
       },
       "iterm2": {
-        "version": "3.2.9",
+        "version": "3.3.9",
         "options": {
           "full_name": "iterm2"
         }
       },
       "postman": {
-        "version": "7.2.2",
+        "version": "7.20.0",
         "options": {
           "full_name": "postman"
         }
       },
       "slack": {
-        "version": "3.4.2",
+        "version": "4.3.3",
         "options": {
           "full_name": "slack"
         }
@@ -586,6 +586,14 @@
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.2.1",
         "macOS": "10.14.6"
+      },
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.10",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "a07fc4262e2b6ca98cec79ffe8a557b0923ec31e",
+        "CLT": "11.0.33.17",
+        "Xcode": "11.3",
+        "macOS": "10.15.3"
       }
     }
   }

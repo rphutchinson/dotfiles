@@ -37,11 +37,11 @@
     "powermode.enableShake": false,
     "powermode.enableStatusBarComboTimer": false,
     "editor.fontSize": 11,
-    "workbench.colorTheme": "Synthwave x Fluoromachine",
     "editor.formatOnSave": true,
     "vscode_custom_css.imports": [
         "file:///Users/patrick.hutchinson/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.9/synthwave-x-fluoromachine.css"
     ],
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Synthwave x Fluoromachine"
 }

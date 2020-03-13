@@ -1,4 +1,5 @@
 arcticicestudio.nord-visual-studio-code
+be5invis.vscode-custom-css
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
@@ -16,10 +17,10 @@ mikestead.dotenv
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 oderwat.indent-rainbow
-PeterJausovec.vscode-docker
 redhat.vscode-yaml
 shd101wyy.markdown-preview-enhanced
 vscodevim.vim
+webrender.synthwave-x-fluoromachine
 xabikos.ReactSnippets
 xhi2art.xhitheme-color
 yzhang.markdown-all-in-one
